@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "strictNullChecks": false,
     "module": "commonjs",
     "lib": ["es2017"]
   }
