@@ -39,6 +39,7 @@
               "vendorChunk": true,
               "commonChunk": true,
               "buildOptimizer": true,
+              "progress": true,
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
