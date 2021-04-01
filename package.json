@@ -5,8 +5,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --configuration=production --open  --proxy-config ./proxy.json",
+    "start-dev": "ng serve --configuration=development --open  --proxy-config ./proxy.json",
     "server": "./node_modules/.bin/ts-node -P ./server/server.tsconfig.json ./server/server.ts",
     "build": "ng build --configuration=production",
+    "build-dev": "ng build --configuration=development",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
